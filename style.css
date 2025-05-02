@@ -40,18 +40,33 @@ header > h1 {
 
 main > article {
     background-color: white;
-    max-width: 70vw;
+    max-width: 50vw;
     height: 1000px;
     margin: 30px auto 50px auto;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 header > p {
-    align-items: center;
     background-color: white;
-    display: inline-block;
+    display: inline;
     text-align: center;
     margin:auto;
     width: 50px;
+}
+
+main > article > a > img {
+    max-width: 500px;
+}
+
+main > article > iframe {
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+
+main > article > a {
+    display: block;
+    margin: auto;
+    text-align: center;
 }
