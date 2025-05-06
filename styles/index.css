@@ -36,15 +36,19 @@ header > nav {
     margin-right: 40px;
 }
 
+header > nav > a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
 header > nav > a:before {
     padding: 15px;
     content: "•";
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+
 
 header > nav > a:hover {
     background-color: black;
@@ -61,4 +65,34 @@ main {
     border-radius: 10px;
     text-shadow: 1px 1px 1px rgb(184, 184, 184);
     box-shadow: 2px 2px 3px rgb(56, 56, 56);
+}
+
+main > article > iframe {
+    margin: auto;
+    display: block;
+}
+
+/*Aqui é o link central das páginas */
+
+.links-cen {
+    display: block;
+    text-align: center;
+}
+
+main > article > p {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+main > article > a {
+    font-size: 1.2em;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+main > article > h2 {
+    margin-bottom: 10px;
+    font-size: 2.8em;
+    font-family: 'Imperial Script';
+    text-decoration: underline;
 }
